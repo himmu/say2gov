@@ -23,7 +23,7 @@ import dj_database_url
 SECRET_KEY = 'we9hw0r_#bh3!yi9+n(h8bxi^zti1d6*(z4$dly=e&p7^b!vlo'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -84,7 +84,7 @@ WSGI_APPLICATION = 'say2gov_django_version.wsgi.application'
 # }
 
 DATABASES = {}
-DATABASES['default'] = dj_database_url.parse('postgres://ochywvyjvxrywf:792b13d96f674f91d7e657f1cb4e55d2235b07809ca53c38272fc3695ad72739@ec2-54-235-247-224.compute-1.amazonaws.com:5432/d7u0o514q4q7pq')
+DATABASES['default'] = dj_database_url.parse('postgres://xsjmrpxravuvtz:5710faadb585cb1ec65d18d485c13d5096421be43aba817b46e2df78066e3a21@ec2-23-23-186-157.compute-1.amazonaws.com:5432/dcg9d3690l1c7t')
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
 
