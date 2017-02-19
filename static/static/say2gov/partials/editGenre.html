@@ -1,0 +1,19 @@
+<div class="col-lg-12 pagecontent" ng-init="editgenre_init()">
+	<span><h3 class="text-primary">Edit Genre</h3></span>
+	<span class="add_buttons"><button class="btn btn-primary" ng-click="go_back()">Back To Genre List</button>
+	<hr>
+</div>
+<div class="toaster_position">
+	<toaster-container toaster-options="{'time-out': 2000}"></toaster-container>
+</div>
+
+<div class="card col-lg-4 col-lg-offset-4 ">
+	<div ng-form name="add_track">
+	  <div class="form-group">
+	    <label for="genre">Genre name:</label>
+	    <input type="text" class="form-control" id="genre" required ng-model="genre" name="genre" placeholder="Bollywood">
+	  </div>
+	  
+	  <button type="submit" class="btn btn-primary fullwidth_button" ng-click="update_genre(add_track)">Submit</button>
+	</div>
+</div>

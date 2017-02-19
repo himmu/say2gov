@@ -1,0 +1,18 @@
+<nav class="navbar navbar-inverse custom_header">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">Say2Gov</a>
+    </div>
+    <!-- <ul class="nav navbar-nav">
+      <li class="active"><a href="#">All Tracks</a></li>
+      <li><a href="#">All Genre</a></li>
+     
+    </ul> -->
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="/"><span class="glyphicon glyphicon-play-circle"></span> All Tracks</a></li>
+      <li ui-sref="base.genrelist"><a  ui-sref="base.genrelist"><span class="glyphicon glyphicon-list"></span> All Genre</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div ui-view class="container"></div>

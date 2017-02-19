@@ -1,0 +1,67 @@
+body{
+ /* background-color:#e67e22;*/
+  background-image: url("/static/say2gov/img/background1.jpg")
+}
+
+.custom_header{
+  position: fixed;
+  width:100%;
+  z-index: 999;
+}
+
+.pagecontent{
+  margin-top:50px;
+}
+
+.add_buttons{
+  float:right;
+  margin-top:-40px
+}
+
+.pagination_div{
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  background-color: #333;
+  width: 100%;
+  left: 0px;
+  height:50px;
+  z-index: 9999;
+  padding-top:10px;
+
+}
+
+.pagination_button{
+    width: 130px;
+    margin-right: 50px;
+}
+
+.tital{
+  font-weight: bolder;
+  font-size: 10px;
+  text-transform: capitalize;
+}
+
+.tags{
+      background-color: #337ab7;
+    border-radius: 16px;
+    text-align: center;
+    padding-left: 10px;
+    margin-right: 10px;
+    color: #fff;
+    width: auto;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.fullwidth_button{
+  width:100%;
+}
+.card{
+  background-color: #fff;
+  padding: 45px 40px 45px 40px;
+  height: auto;
+  box-shadow: -1px 5px 14px 1px #888888;
+  border-radius: 10px;
+}
