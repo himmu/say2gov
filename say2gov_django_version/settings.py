@@ -84,7 +84,7 @@ WSGI_APPLICATION = 'say2gov_django_version.wsgi.application'
 # }
 
 DATABASES = {}
-DATABASES['default'] = dj_database_url.parse('postgres://cjfkqmbkjbwata:Q_7anZzYepa820A-mrLkDjO5Vi@ec2-174-129-197-200.compute-1.amazonaws.com:5432/df0j13eukf0rkd')
+DATABASES['default'] = dj_database_url.parse('postgres://ochywvyjvxrywf:792b13d96f674f91d7e657f1cb4e55d2235b07809ca53c38272fc3695ad72739@ec2-54-235-247-224.compute-1.amazonaws.com:5432/d7u0o514q4q7pq')
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
 
