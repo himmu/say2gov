@@ -2,8 +2,8 @@ var say2govApp = angular.module('say2gov',['ui.router','ngMessages','ngTable','t
 
 
 say2govApp.constant('urls',{
-    'BASE_API':"http://localhost:8000",
-    "MEDIA_URL":"http://localhost:8000/"
+    'BASE_API':"https://say2gov.herokuapp.com",
+    "MEDIA_URL":"https://say2gov.herokuapp.com/"
 })
 
 .config(function ($interpolateProvider) {
