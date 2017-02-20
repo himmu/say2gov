@@ -14,7 +14,7 @@ https://docs.djangoproject.com/en/1.8/ref/settings/
 import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-import dj_database_url
+# import dj_database_url
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
@@ -84,7 +84,7 @@ WSGI_APPLICATION = 'say2gov_django_version.wsgi.application'
 # }
 
 DATABASES = {}
-DATABASES['default'] = dj_database_url.parse('postgres://xsjmrpxravuvtz:5710faadb585cb1ec65d18d485c13d5096421be43aba817b46e2df78066e3a21@ec2-23-23-186-157.compute-1.amazonaws.com:5432/dcg9d3690l1c7t')
+DATABASES['default'] = dj_database_url.parse('postgres://jwagnpvjwkgjpd:34a2e7ef52246604869529d9aeee54d6d119804a63a1ad0aa7525ef8d9e57d5b@ec2-107-20-193-74.compute-1.amazonaws.com:5432/d7qecvpr8icm1v')
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
 
